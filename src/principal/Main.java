@@ -23,7 +23,7 @@ public class Main {
         punto2.setB(sc.nextDouble());
 
 
-        System.out.println(punto1.distancia());
+        System.out.println(punto1.distanciaConOtroPunto(punto2));
 
     }
 }

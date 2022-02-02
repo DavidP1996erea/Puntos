@@ -29,6 +29,13 @@ public class Punto {
 
     }
 
+    public double distanciaConOtroPunto(Punto punto1){
+
+        return Math.sqrt(Math.pow((punto1.a-a),2) + Math.pow(punto1.b-b, 2));
+
+
+    }
+
 
     public double getA() {
         return a;
