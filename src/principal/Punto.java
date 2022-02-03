@@ -11,9 +11,12 @@ public class Punto {
     }
 
 
-    public void igual(Punto punto1, Punto punto2){
+    public void igual(Punto punto2){
+        Punto punto1 = new Punto();
+        punto1.setA(a);
+        punto1.setB(b);
 
-       if(punto1.equals(punto2)){
+       if(punto1.getA()==punto2.getA() && punto1.getB()==punto2.getB()){
 
            System.out.println("Ambos puntos son iguales");
        }

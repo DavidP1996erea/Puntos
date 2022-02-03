@@ -11,6 +11,7 @@ public class Main {
 
         Punto punto1 = new Punto();
         Punto punto2 = new Punto();
+        Punto punto3 = new Punto();
 
         System.out.println("Introduce la coordenada X del primer punto");
         punto1.setA(sc.nextDouble());
@@ -22,8 +23,9 @@ public class Main {
         System.out.println("Introduce la coordenada Y del segundo punto");
         punto2.setB(sc.nextDouble());
 
-
+        punto1.igual(punto2);
         System.out.println(punto1.distanciaConOtroPunto(punto2));
+
 
     }
 }
